@@ -1,0 +1,80 @@
+ day11:
+ ---------------
+ 
+ methods
+ 
+ methods also part of class
+ 
+ once we crated object, through object we can call method
+ 
+ built in methods----already available in java, we just use that methods
+ and user defined methods---we ca create customized methods
+ by calling methods only implementation will works
+ 
+ sometime method can take parameter and return some value
+ sometime method can take parameter and not return any value
+ sometime method cant take parameter and return some value
+ sometime method cant take parameter and not return any value 
+ 
+1)no para  no return value
+2) no param  return value
+3) takes param  no return value
+4) take parasm return value
+
+String s= new String ("welcome");
+
+if i want to find length of the above string
+
+s.length();  --->it will reurn something  that case we can print directly and store it in one variable
+
+int len= s.length();---no param and return value
+
+String sub= s.substring(2, 5);--param and return value
+
+Class contains variable and methods
+
+<<<class variables>>>
+How many ways we can store data into variables?
+-------------------------------------------
+1. object reference
+2.creating method
+3.using constructor
+
+
+method--is for both assignment and operation
+constructor--only for assignment
+
+Diff b/w method and contructor
+--------------------------------
+<<method>>
+method name can be anything
+method may or may not return a value
+if method is not returning any value then specify void
+method can take parameters/arguments
+we have to invoke/call methods explicitely by object reference
+used for specifying logic
+
+
+
+<<Constructor>>
+
+constructor name shuld be class name
+constructor will never return a value (not evn void)
+we dont specify void
+constructor can take parameters/arguments
+constructor automatically invokeed at the time of object creation
+used for initilaizing the values of variable alone no logic will come inside constructor
+
+
+<<<contructor type>>
+
+ 
+
+
+
+
+
+
+ 
+ 
+ 

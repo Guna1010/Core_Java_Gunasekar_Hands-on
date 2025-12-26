@@ -1,0 +1,113 @@
+Object oriented programming language:
+----------
+class
+object
+polymorphism
+encapsulation
+inheritence
+data abstraction
+
+
+class contains methods
+its a category or class is collection of attributes and behaviour.
+ex., 
+
+categories are Animal--> dog, elephant, horse etc. these having own attributes and behaviour,
+categories are Students-->kim, devid, scott etc., these having own attributes and behaviour
+categories are Organization-->emp1, emp2, emp3., these having own attributes and behaviour
+
+its a blue print-->before constructing a house we would have a plan, based on that only we will build house
+
+one class we can create multiple objects
+group of objects are called class
+class is virtual entity
+
+Object:
+object is an instance of class
+
+Class: in JAVA
+-------------
+ 
+1) class is collection of variable and methods
+2) class is logical entity- its a blue print and its a virtual, if its not physical,
+so it will  not occupy space in the memory
+
+
+class Employee
+
+{
+variables
+methods
+}
+
+
+Object: in JAVA
+------------------------
+
+object is dervied from class itself
+
+object is an instance of class. in otherwords object will be created using class.
+object is a physical entity
+it occupy some sapce in memory
+we can create n number of objects in single classs
+
+how to create object: using new ClassName
+
+  Employee emp1= new Employee();
+  Employee emp2= new Employee();
+  Employee emp3= new Employee();
+
+
+once we create an objcet, that object can owns all the variables and methods
+
+but there is no connection between all thse 3 objects
+
+It has separate memory
+objects are independent, so its stored in memory in different space.
+
+
+without create main method we can't execute class file
+
+the main method where in the class called main class
+
+Normally we will able to access all the class which available in the same project by main class
+
+
+ if you want to access variable methods from other or external package in same project , we have to import in main class as following
+ 
+ import packagename.className; 
+ 
+ if both are same package no need to import
+ 
+ once if the variables are assigned in class it will be common for all the objects
+ 
+ if all the objects having same data , that time only shoud decalre variable value in class level
+ 
+ if any one object has differnt data,  we should assign values by object level in main class
+ 
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,66 @@
+Inheritance:
+------------------------------------------
+
+so for in oops we covered, class, objects, polymorphism, encapsulation
+no this is inheritance
+
+what is inheritance?
+----------------------
+acquiring all the properties (variables) and behaviour (methods) from one class to another
+
+ClassA
+{
+variables1
+methods1
+}
+
+ClassB{
+
+variables2
+methods2
+}
+
+
+if i need same details from A class to B class, use extends keywords to acquire those varaibles and methods
+
+ClassB extends ClassA    (here class A--parent/base/super)  (ClassB--child/sub/derived)
+
+advantage of inheritance: acheive re-usbality and avoid duplication
+
+
+Bank -package
+
+base class having 5 unique feature
+personal loan also have 10 class  and we can extend those base class
+home loan class also 10 have 5 class and we can extend those base class
+
+
+types:
+
+Single ---> one parent and one child
+multilevel---->one parent can have another child that child have another child  --chaining
+hierarchy-->only one  parent have multiple childs
+multiple--->multiple parents have single child --using class concept we cant achieve by interface only we can achiev multiple inheritance
+
+
+same class name should not be used anywahere in same package
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

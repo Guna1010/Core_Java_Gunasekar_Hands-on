@@ -1,0 +1,117 @@
+
+Method Overriding:
+-----------------------
+
+overriding is possible only with inheritance : because atleast 2 class needed
+
+we have to create object for the respective class and call the respective method with the new implementation
+
+whatever the method we already created in parent class, in the child class  wherever you want to change the methods implementation
+
+why its required: if we dont want old implementation or customization
+condition: we should not change the declarartion (method name, return type, data type,  parameter, order of para, access modifier) or simply tell definition should be same
+
+class Parent
+
+m1(){
+
+}
+
+
+class Child extends Parent
+
+m1(){
+just changing implementation
+}
+
+
+Diff b/w method overloading & method overriding
+-----------------------------------------------
+
+method overrriding:
+
+1) possible only in multiple classes (with inheritance)
+2) we should not change the signature of the method but body we should change
+3) method name are same
+4) belongs to inheritance
+
+method overriding:
+
+1)possible in single & multiple classes (inheritance)
+2) we should change the signature of the method
+3) method names are same
+4) belongs to polymorphism
+
+
+------------------------------------
+Final Keyword:
+----------------------------
+
+we can apply for variable class and methods
+
+variables- we cant change the value of variables (constant)
+methods-we cant override those methods in child class
+class- we cant extends the class
+
+
+
+whenever value of the variable is common for irrespective of objects we can set it as static
+static keyword can apply only for varaible and methods
+
+whenever overriding how to call method?
+
+classname.methodname();
+
+
+static methods we can overload/override
+but final method we cant
+
+--------------------------
+Super
+------------------------------------
+
+it is again related to overriding concept
+
+if you create object for parent class you can variable/method from parent class
+if you want to access parent class variable and method by child class object use super keyword
+beacuse super referring immediate parent class-- means it will give old implementation and old value
+
+super kw will be used to invoke immediate parent class variable
+super kw will be used to invoke immediate parent class method
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

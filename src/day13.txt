@@ -1,0 +1,110 @@
+Static
+------------------
+
+static methods can access static stuff directly (without object)
+static methods cans access non static stuff through object
+non static method can acceess everything directly  -refer m3 method in script
+
+if main method is from another class in the same page, you have to mention the class name explicitely for all static variable and method name
+System.out.println(Staticdemo.a);
+		Staticdemo.m1();
+ for non static we can access normally by creating object of the class A
+ 
+ 
+ if the modiffier as private we cant anywhereelse only in same class
+ 
+ 
+ ex.,
+ 
+ class Test
+ {
+ static String s= "welcome";
+ }
+ 
+ 
+classTest1
+{
+
+
+public static void main (String[] args){
+
+System.out.println(Test.s.length());
+}
+
+
+
+<<<<System.out.println()>>>>>>
+
+
+class System{
+
+static PrintStream out;
+
+}
+
+System.out.print();
+System.out.println();
+
+
+jvm is the main reason for executing program, jvm will execute the main method first
+
+
+---------------------------------------------------------------------
+
+<<explain public static void main()>>>>
+
+public--its a access modifier, completely open, no limitation in accesss, we can access everywhere in the project
+static- the main method is common across all the classes and objects
+void----the main method doesn't return any value
+
+main--name of the method
+
+string is type
+[] single dimentional array 
+args-string array variable
+
+static public void main (String[] args)---valid//this also will work, because jvm will check whether the keywords there or not
+it wont check order of keywords
+
+
+public void static main(STring[] args)--invalid// void should come before method name
+
+
+------------------------------------------------------------------------------------
+how to pass parameter to main method??
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
